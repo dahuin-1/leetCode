@@ -12,34 +12,32 @@ public class reverseInteger {
 
     public static void main(String[] args) {
         reverseInteger reverseInteger = new reverseInteger();
-        reverseInteger.reverse(-2039);
+        reverseInteger.reverse(-2938);
     }
 
     public int reverse(int x) {
-        if(x == 0){
+        if (x == 0) {
             return x;
         }
         StringBuilder stringBuilder = new StringBuilder();
         String newX = Integer.toString(x);
 
-            for (int i = newX.length() - 1; i >= 0; i--) {
-                //stringBuilder.append(list[i]);
-                stringBuilder.append(newX.charAt(i));
-            }
-
-        if(isMinus(String.valueOf(stringBuilder))){
-            stringBuilder.deleteCharAt(stringBuilder.length()-1);
-            stringBuilder.insert(0,"-");
+        for (int i = newX.length() - 1; i >= 0; i--) {
+            stringBuilder.append(newX.charAt(i));
         }
-        while (String.valueOf(stringBuilder).startsWith("0")){
+
+        if (isMinus(String.valueOf(stringBuilder))) {
+            stringBuilder.deleteCharAt(stringBuilder.length() - 1);
+            stringBuilder.insert(0, "-");
+        }
+        while (String.valueOf(stringBuilder).startsWith("0")) {
             stringBuilder.deleteCharAt(0);
         }
-        System.out.println(Integer.parseInt(String.valueOf(stringBuilder)));
         return Integer.parseInt(String.valueOf(stringBuilder));
     }
 
     public boolean isMinus(String x) {
-        if (x.endsWith("-")){
+        if (x.endsWith("-")) {
             return true;
         } else {
             return false;
