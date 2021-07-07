@@ -1,3 +1,5 @@
+package java;
+
 public class reverseInteger_solution {
 
     public int reverse(int x) {
