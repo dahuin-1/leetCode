@@ -1,4 +1,4 @@
-package byjava;
+package solutions;
 
 public class reverseInteger_solution {
 

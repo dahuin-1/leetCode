@@ -31,7 +31,6 @@ public class romantointeger {
             }
             if (s.contains("I")) {
                 result += 1;
-                //s = s.replace("I", Integer.toString(0));
                 s = s.replaceFirst("I","");
             }
             if (s.contains("V")) {
@@ -59,17 +58,12 @@ public class romantointeger {
                 s = s.replaceFirst("M", "");
             }
         }
-
         return result;
-
-
     }
 
     public static void main(String[] args) {
         romantointeger r = new romantointeger();
         System.out.println( r.romanToInt("LVIII"));
-        //r.romanToInt("LVIII");
     }
-
 }
 
