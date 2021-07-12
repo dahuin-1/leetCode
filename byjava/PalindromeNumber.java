@@ -1,4 +1,4 @@
-package java;
+package byjava;
 
 public class PalindromeNumber {
 
