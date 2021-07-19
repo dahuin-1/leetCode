@@ -3,7 +3,7 @@ package byjava;
 public class LongestSubstring {
     public static void main(String[] args) {
         LongestSubstring ls = new LongestSubstring();
-        System.out.println(ls.lengthOfLongestSubstring("pwwkew"));
+        System.out.println(ls.lengthOfLongestSubstring("babad"));
     }
 
     public int lengthOfLongestSubstring(String s) {
