@@ -15,7 +15,7 @@ public class BinaryTreeInorderTraversal {
 
         while(cur!=null || !stack.empty()){
             while(cur!=null){
-                stack.add(cur);
+                stack.push(cur);
                 cur = cur.left;
             }
             cur = stack.pop();
