@@ -15,21 +15,16 @@ public class BinaryTreeLevelOrderTraversal_102 {
         while(!queue.isEmpty()) {
             List<Integer> sublist = new ArrayList<>();
             int size = queue.size();
+
             for(int i = 0; i < size; i++) {
-                if(queue.peek().left != null) {
-                    queue.offer(queue.peek().left);
-                }
-                if(queue.peek().right != null) {
-                    queue.offer(queue.peek().right);
-                }
-                sublist.add(queue.poll().val);
-              /*  TreeNode tempNode = queue.poll();
+                TreeNode tempNode = queue.peek();
                 if (tempNode.left != null) {
                     queue.add(tempNode.left);
                 }
                 if (tempNode.right != null) {
                     queue.add(tempNode.right);
-                }*/
+                }
+                sublist.add(queue.poll().val);
             }
             resultList.add(sublist);
         }
