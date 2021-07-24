@@ -19,10 +19,12 @@ public class ValidateBinarySearchTree_98 {
                 currentNode = currentNode.left;
             }
             currentNode = stack.pop();
+
             if(pre != null && currentNode.val <= pre.val) {
                 return false;
             }
             pre = currentNode;
+
             currentNode = currentNode.right;
         }
         return true;
