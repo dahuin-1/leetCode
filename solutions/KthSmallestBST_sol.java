@@ -1,7 +1,5 @@
 package solutions;
 
-import byjava.KthSmallestBST;
-
 import java.util.Stack;
 
 public class KthSmallestBST_sol {
