@@ -6,61 +6,28 @@ import java.util.List;
 import java.util.Queue;
 
 public class BinaryTreeZigzagLevelOrder_sol {
+
     public List<List<Integer>> zigzagLevelOrder(TreeNode root) {
         List<List<Integer>> resultList = new ArrayList<>();
-        Queue<TreeNode> queue = new LinkedList<>();
-        TreeNode currentNode = root;
-        int count = 1;
-        if (currentNode == null) {
-            return resultList;
-        }
-        queue.offer(currentNode);
-        while (!queue.isEmpty()) {
-            List<Integer> sublist = new ArrayList<>();
-            int size = queue.size();
-            for (int i = 0; i < size; i++) {
-                if (count % 2 != 0) {
-                    if (queue.peek().right != null) {
-                        queue.offer(queue.peek().right); //peek
-                    }
-                    if (queue.peek().left != null) {
-                        queue.offer(queue.peek().left);
-                    }
-                    sublist.add(queue.poll().val);
-                    count++;
-                } else {
-                    if (queue.peek().left != null) {
-                        queue.offer(queue.peek().left); //peek
-                    }
-                    if (queue.peek().right != null) {
-                        queue.offer(queue.peek().right);
-                    }
-                    sublist.add(queue.poll().val);
-                }
-            }
-            resultList.add(sublist);
-        }
-        for(List<Integer> sublist : resultList){
-
-
-        }
-
+        travel(root, resultList, 0);
         return resultList;
     }
-                /*if(count % 2 == 0) { //짝수라면
-                    stack.push(queue.poll());
-                    sublist.add(stack.pop().val);
-                }else {*/
-                 /*   sublist.add(queue.poll().val); //pop
-                }
-                count++;
-            }
-            resultList.add(sublist);
+
+    private void travel(TreeNode currentNode, List<List<Integer>> resultList, int level) {
+        if(currentNode == null) return;
+
+        if(resultList.size() <= level) {
+            List<Integer> newLevel = new LinkedList<>();
+            resultList.add(newLevel);
         }
 
-        return resultList;
-    }*/
+        List<Integer> collection  = resultList.get(level);
+        if(level % 2 == 0) collection.add(currentNode.val);
+        else collection.add(0, currentNode.val);
 
+        travel(currentNode.left, resultList, level + 1);
+        travel(currentNode.right, resultList, level + 1);
+    }
 
     public class TreeNode {
         int val;
@@ -80,5 +47,6 @@ public class BinaryTreeZigzagLevelOrder_sol {
             this.right = right;
         }
     }
+
 }
 
