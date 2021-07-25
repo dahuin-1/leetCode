@@ -10,7 +10,7 @@ public class BinaryTreeLevelOrderTraversal_sol {
         TreeNode currentNode = root;
         List<List<Integer>> resultList = new ArrayList<>();
         Queue<TreeNode> queue = new LinkedList<TreeNode>();
-        if (root == null) {
+        if (currentNode == null) {
             return resultList;
         }
         queue.offer(currentNode);
@@ -21,10 +21,10 @@ public class BinaryTreeLevelOrderTraversal_sol {
                 if(queue.peek().left != null) {
                     queue.offer(queue.peek().left);
                 }
-                if(queue.peek().right != null) {
+                if(queue.peek().right != null) { //
                     queue.offer(queue.peek().right);
                 }
-                sublist.add(queue.poll().val);
+                sublist.add(queue.poll().val); //
             }
             resultList.add(sublist);
         }
