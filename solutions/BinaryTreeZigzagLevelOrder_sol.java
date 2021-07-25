@@ -1,32 +1,36 @@
 package solutions;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Queue;
+import java.util.*;
 
 public class BinaryTreeZigzagLevelOrder_sol {
 
     public List<List<Integer>> zigzagLevelOrder(TreeNode root) {
-        List<List<Integer>> resultList = new ArrayList<>();
-        travel(root, resultList, 0);
-        return resultList;
-    }
+        TreeNode currentNode = root;
+        List<List<Integer>> resultList = new ArrayList<List<Integer>>();
+        if(currentNode == null) return resultList;
+        Stack<TreeNode> stack1 = new Stack<TreeNode>();
+        Stack<TreeNode> stack2 = new Stack<TreeNode>();
 
-    private void travel(TreeNode currentNode, List<List<Integer>> resultList, int level) {
-        if(currentNode == null) return;
-
-        if(resultList.size() <= level) {
-            List<Integer> newLevel = new LinkedList<>();
-            resultList.add(newLevel);
+        stack1.push(root);
+        while(!stack1.isEmpty()||!stack2.isEmpty()) {
+            List<Integer> subList = new ArrayList<Integer>();
+            while(!stack1.isEmpty()) {
+                currentNode = stack1.pop();
+                subList.add(currentNode.val);
+                if(currentNode.left!=null) stack2.push(currentNode.left);
+                if(currentNode.right!=null) stack2.push(currentNode.right);
+            }
+            resultList.add(subList);
+            subList = new ArrayList<Integer>();
+            while(!stack2.isEmpty()) {
+                currentNode = stack2.pop();
+                subList.add(currentNode.val);
+                if(currentNode.right!=null)stack1.push(currentNode.right);
+                if(currentNode.left!=null)stack1.push(currentNode.left);
+            }
+            if(!subList.isEmpty()) resultList.add(subList);
         }
-
-        List<Integer> collection  = resultList.get(level);
-        if(level % 2 == 0) collection.add(currentNode.val);
-        else collection.add(0, currentNode.val);
-
-        travel(currentNode.left, resultList, level + 1);
-        travel(currentNode.right, resultList, level + 1);
+        return resultList;
     }
 
     public class TreeNode {
