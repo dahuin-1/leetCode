@@ -11,22 +11,23 @@ public class BinaryTreeZigzagLevelOrder_sol2 {
         Queue<TreeNode> q = new LinkedList<>();
         List<List<Integer>> resultList = new ArrayList<>();
         q.add(root);
+
         boolean order = true;
         int size = 1;
 
         while(!q.isEmpty()) {
-            List<Integer> tmp = new ArrayList<>();
+            List<Integer> subList = new ArrayList<>();
             for(int i = 0; i < size; ++i) {
-                TreeNode n = q.poll();
+                TreeNode currentNode = q.poll();
                 if(order) {
-                    tmp.add(n.val);
+                    subList.add(currentNode.val);
                 } else {
-                    tmp.add(0, n.val);
+                    subList.add(0, currentNode.val);
                 }
-                if(n.left != null) q.add(n.left);
-                if(n.right != null) q.add(n.right);
+                if(currentNode.left != null) q.add(currentNode.left);
+                if(currentNode.right != null) q.add(currentNode.right);
             }
-            resultList.add(tmp);
+            resultList.add(subList);
             size = q.size();
             order = !order;
         }
