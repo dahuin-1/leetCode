@@ -8,8 +8,11 @@ import java.util.Queue;
 public class BinaryTreeZigzagLevelOrder_sol2 {
 
     public List<List<Integer>> zigzagLevelOrder(TreeNode root) {
-        Queue<TreeNode> q = new LinkedList<>();
+
         List<List<Integer>> resultList = new ArrayList<>();
+        if(root == null){ return resultList; }
+
+        Queue<TreeNode> q = new LinkedList<>();
         q.add(root);
 
         boolean order = true;
