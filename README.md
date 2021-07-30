@@ -4,6 +4,7 @@
     - question link :  https://leetcode.com/problems/two-sum/
     - difficulty :  Easy
     - topic tags :  ["Array","Hash Table"]
+    - solution : https://github.com/dahuin-1/leetCodebyJAVA/blob/master/byjava/TwoSum.java
 -----------------------------------------------------
 - question num :  20
     - question link :  https://leetcode.com/problems/valid-parentheses/
