@@ -1,4 +1,4 @@
-package byjava;
+package Top100andTopInterview;
 
 
 public class MergeTwoSortedLists {
