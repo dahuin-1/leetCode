@@ -6,17 +6,17 @@
 - question num :  1
     - question link :  https://leetcode.com/problems/two-sum/
     - difficulty :  Easy
-    - solution : https://github.com/dahuin-1/leetCodebyJAVA/blob/master/byjava/TwoSum.java
+    - solution : https://github.com/dahuin-1/leetCodebyJAVA/blob/master/Top100andTopInterview/TwoSum.java
 -----------------------------------------------------
 - question num :  20
     - question link :  https://leetcode.com/problems/valid-parentheses/
     - difficulty :  Easy
-    - solution : https://github.com/dahuin-1/leetCodebyJAVA/blob/master/solutions/validParenthesesByStack_sol.java
+    - solution : https://github.com/dahuin-1/leetCodebyJAVA/blob/master/Top100andTopInterview/validParenthesesByStack.java
 -----------------------------------------------------
 - question num :  21
     - question link :  https://leetcode.com/problems/merge-two-sorted-lists/
     - difficulty :  Easy
-    - solution : https://github.com/dahuin-1/leetCodebyJAVA/blob/master/byjava/MergeTwoSortedLists.java
+    - solution : https://github.com/dahuin-1/leetCodebyJAVA/blob/master/Top100andTopInterview/MergeTwoSortedLists.java
 -----------------------------------------------------
 - question num :  53
   - question link :  https://leetcode.com/problems/maximum-subarray/
