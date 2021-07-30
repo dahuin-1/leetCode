@@ -1,7 +1,7 @@
-#leetCode
+# leetCode
 
-##top 100 liked questions와 top interview questions 리스트에 모두 속한 문제를 모았습니다.
-
+### top 100 liked questions와 top interview questions 리스트에 모두 속한 문제를 모았습니다.
+<br/>
 
 - question num :  1
     - question link :  https://leetcode.com/problems/two-sum/
@@ -281,16 +281,16 @@
 - question num :  124
   - question link :  https://leetcode.com/problems/binary-tree-maximum-path-sum/
   - difficulty :  Hard
------------------------------------------------------
+---
 - question num :  239
   - question link :  https://leetcode.com/problems/sliding-window-maximum/
   - difficulty :  Hard
-    ——————————————————————————
+---
 - question num :  295
   - question link :  https://leetcode.com/problems/find-median-from-data-stream/
   - difficulty :  Hard
-    ——————————————————————————
+---
 - question num :  297
   - question link :  https://leetcode.com/problems/serialize-and-deserialize-binary-tree/
   - difficulty :  Hard
-    ———————————————————————————————————————
+---
