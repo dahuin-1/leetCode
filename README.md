@@ -1,6 +1,7 @@
 #leetCode
 
-top 100 liked questions와 top interview questions 리스트에 모두 속한 문제를 모았습니다.
+##top 100 liked questions와 top interview questions 리스트에 모두 속한 문제를 모았습니다.
+
 
 - question num :  1
     - question link :  https://leetcode.com/problems/two-sum/
