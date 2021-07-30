@@ -1,4 +1,362 @@
 #leetCode
 
-
-leetcode에 있는 algorithm 항목의 문제를 풉니다.
+- question num :  1
+    - question link :  https://leetcode.com/problems/two-sum/
+    - difficulty :  Easy
+    - topic tags :  ["Array","Hash Table"]
+-----------------------------------------------------
+- question num :  20
+    - question link :  https://leetcode.com/problems/valid-parentheses/
+    - difficulty :  Easy
+    - topic tags :  ["String","Stack"]
+-----------------------------------------------------
+- question num :  21
+    - question link :  https://leetcode.com/problems/merge-two-sorted-lists/
+    - difficulty :  Easy
+    - topic tags :  ["Linked List","Recursion"]
+-----------------------------------------------------
+- question num :  53
+    - question link :  https://leetcode.com/problems/maximum-subarray/
+    - difficulty :  Easy
+    - topic tags :  ["Array","Divide and Conquer","Dynamic Programming"]
+-----------------------------------------------------
+- question num :  70
+    - question link :  https://leetcode.com/problems/climbing-stairs/
+    - difficulty :  Easy
+    - topic tags :  ["Math","Dynamic Programming","Memoization"]
+-----------------------------------------------------
+- question num :  94
+    - question link :  https://leetcode.com/problems/binary-tree-inorder-traversal/
+    - difficulty :  Easy
+    - topic tags :  ["Stack","Tree","Depth-First Search","Binary Tree"]
+-----------------------------------------------------
+- question num :  101
+    - question link :  https://leetcode.com/problems/symmetric-tree/
+    - difficulty :  Easy
+    - topic tags :  ["Tree","Depth-First Search","Breadth-First Search","Binary Tree"]
+-----------------------------------------------------
+- question num :  104
+    - question link :  https://leetcode.com/problems/maximum-depth-of-binary-tree/
+    - difficulty :  Easy
+    - topic tags :  ["Tree","Depth-First Search","Breadth-First Search","Binary Tree"]
+-----------------------------------------------------
+- question num :  121
+    - question link :  https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
+    - difficulty :  Easy
+    - topic tags :  ["Array","Dynamic Programming"]
+-----------------------------------------------------
+- question num :  136
+    - question link :  https://leetcode.com/problems/single-number/
+    - difficulty :  Easy
+    - topic tags :  ["Array","Bit Manipulation"]
+-----------------------------------------------------
+- question num :  141
+    - question link :  https://leetcode.com/problems/linked-list-cycle/
+    - difficulty :  Easy
+    - topic tags :  ["Hash Table","Linked List","Two Pointers"]
+-----------------------------------------------------
+- question num :  155
+    - question link :  https://leetcode.com/problems/min-stack/
+    - difficulty :  Easy
+    - topic tags :  ["Stack","Design"]
+-----------------------------------------------------
+- question num :  160
+    - question link :  https://leetcode.com/problems/intersection-of-two-linked-lists/
+    - difficulty :  Easy
+    - topic tags :  ["Hash Table","Linked List","Two Pointers"]
+-----------------------------------------------------
+- question num :  169
+    - question link :  https://leetcode.com/problems/majority-element/
+    - difficulty :  Easy
+    - topic tags :  ["Array","Hash Table","Divide and Conquer","Sorting","Counting"]
+-----------------------------------------------------
+- question num :  206
+    - question link :  https://leetcode.com/problems/reverse-linked-list/
+    - difficulty :  Easy
+    - topic tags :  ["Linked List","Recursion"]
+-----------------------------------------------------
+- question num :  234
+    - question link :  https://leetcode.com/problems/palindrome-linked-list/
+    - difficulty :  Easy
+    - topic tags :  ["Linked List","Two Pointers","Stack","Recursion"]
+-----------------------------------------------------
+- question num :  283
+    - question link :  https://leetcode.com/problems/move-zeroes/
+    - difficulty :  Easy
+    - topic tags :  ["Array","Two Pointers"]
+-----------------------------------------------------
+- question num :  2
+    - question link :  https://leetcode.com/problems/add-two-numbers/
+    - difficulty :  Medium
+    - topic tags :  ["Linked List","Math","Recursion"]
+-----------------------------------------------------
+- question num :  3
+    - question link :  https://leetcode.com/problems/longest-substring-without-repeating-characters/
+    - difficulty :  Medium
+    - topic tags :  ["Hash Table","String","Sliding Window"]
+-----------------------------------------------------
+- question num :  5
+    - question link :  https://leetcode.com/problems/longest-palindromic-substring/
+    - difficulty :  Medium
+    - topic tags :  ["String","Dynamic Programming"]
+-----------------------------------------------------
+- question num :  11
+    - question link :  https://leetcode.com/problems/container-with-most-water/
+    - difficulty :  Medium
+    - topic tags :  ["Array","Two Pointers","Greedy"]
+-----------------------------------------------------
+- question num :  15
+    - question link :  https://leetcode.com/problems/3sum/
+    - difficulty :  Medium
+    - topic tags :  ["Array","Two Pointers","Sorting"]
+-----------------------------------------------------
+- question num :  17
+    - question link :  https://leetcode.com/problems/letter-combinations-of-a-phone-number/
+    - difficulty :  Medium
+    - topic tags :  ["Hash Table","String","Backtracking"]
+-----------------------------------------------------
+- question num :  19
+    - question link :  https://leetcode.com/problems/remove-nth-node-from-end-of-list/
+    - difficulty :  Medium
+    - topic tags :  ["Linked List","Two Pointers"]
+-----------------------------------------------------
+- question num :  22
+    - question link :  https://leetcode.com/problems/generate-parentheses/
+    - difficulty :  Medium
+    - topic tags :  ["String","Dynamic Programming","Backtracking"]
+-----------------------------------------------------
+- question num :  33
+    - question link :  https://leetcode.com/problems/search-in-rotated-sorted-array/
+    - difficulty :  Medium
+    - topic tags :  ["Array","Binary Search"]
+-----------------------------------------------------
+- question num :  34
+    - question link :  https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
+    - difficulty :  Medium
+    - topic tags :  ["Array","Binary Search"]
+-----------------------------------------------------
+- question num :  46
+    - question link :  https://leetcode.com/problems/permutations/
+    - difficulty :  Medium
+    - topic tags :  ["Array","Backtracking"]
+-----------------------------------------------------
+- question num :  48
+    - question link :  https://leetcode.com/problems/rotate-image/
+    - difficulty :  Medium
+    - topic tags :  ["Array","Math","Matrix"]
+-----------------------------------------------------
+- question num :  49
+    - question link :  https://leetcode.com/problems/group-anagrams/
+    - difficulty :  Medium
+    - topic tags :  ["Hash Table","String","Sorting"]
+-----------------------------------------------------
+- question num :  55
+    - question link :  https://leetcode.com/problems/jump-game/
+    - difficulty :  Medium
+    - topic tags :  ["Array","Dynamic Programming","Greedy"]
+-----------------------------------------------------
+- question num :  56
+    - question link :  https://leetcode.com/problems/merge-intervals/
+    - difficulty :  Medium
+    - topic tags :  ["Array","Sorting"]
+-----------------------------------------------------
+- question num :  62
+    - question link :  https://leetcode.com/problems/unique-paths/
+    - difficulty :  Medium
+    - topic tags :  ["Math","Dynamic Programming","Combinatorics"]
+-----------------------------------------------------
+- question num :  75
+    - question link :  https://leetcode.com/problems/sort-colors/
+    - difficulty :  Medium
+    - topic tags :  ["Array","Two Pointers","Sorting"]
+-----------------------------------------------------
+- question num :  78
+    - question link :  https://leetcode.com/problems/subsets/
+    - difficulty :  Medium
+    - topic tags :  ["Array","Backtracking","Bit Manipulation"]
+-----------------------------------------------------
+- question num :  79
+    - question link :  https://leetcode.com/problems/word-search/
+    - difficulty :  Medium
+    - topic tags :  ["Array","Backtracking","Matrix"]
+-----------------------------------------------------
+- question num :  98
+    - question link :  https://leetcode.com/problems/validate-binary-search-tree/
+    - difficulty :  Medium
+    - topic tags :  ["Tree","Depth-First Search","Binary Search Tree","Binary Tree"]
+-----------------------------------------------------
+- question num :  102
+    - question link :  https://leetcode.com/problems/binary-tree-level-order-traversal/
+    - difficulty :  Medium
+    - topic tags :  ["Tree","Breadth-First Search","Binary Tree"]
+-----------------------------------------------------
+- question num :  105
+    - question link :  https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
+    - difficulty :  Medium
+    - topic tags :  ["Array","Hash Table","Divide and Conquer","Tree","Binary Tree"]
+-----------------------------------------------------
+- question num :  128
+    - question link :  https://leetcode.com/problems/longest-consecutive-sequence/
+    - difficulty :  Medium
+    - topic tags :  ["Array","Hash Table","Union Find"]
+-----------------------------------------------------
+- question num :  138
+    - question link :  https://leetcode.com/problems/copy-list-with-random-pointer/
+    - difficulty :  Medium
+    - topic tags :  ["Hash Table","Linked List"]
+-----------------------------------------------------
+- question num :  139
+    - question link :  https://leetcode.com/problems/word-break/
+    - difficulty :  Medium
+    - topic tags :  ["Hash Table","String","Dynamic Programming","Trie","Memoization"]
+-----------------------------------------------------
+- question num :  146
+    - question link :  https://leetcode.com/problems/lru-cache/
+    - difficulty :  Medium
+    - topic tags :  ["Hash Table","Linked List","Design","Doubly-Linked List"]
+-----------------------------------------------------
+- question num :  148
+    - question link :  https://leetcode.com/problems/sort-list/
+    - difficulty :  Medium
+    - topic tags :  ["Linked List","Two Pointers","Divide and Conquer","Sorting","Merge Sort"]
+-----------------------------------------------------
+- question num :  152
+    - question link :  https://leetcode.com/problems/maximum-product-subarray/
+    - difficulty :  Medium
+    - topic tags :  ["Array","Dynamic Programming"]
+-----------------------------------------------------
+- question num :  189
+    - question link :  https://leetcode.com/problems/rotate-array/
+    - difficulty :  Medium
+    - topic tags :  ["Array","Math","Two Pointers"]
+-----------------------------------------------------
+- question num :  198
+    - question link :  https://leetcode.com/problems/house-robber/
+    - difficulty :  Medium
+    - topic tags :  ["Array","Dynamic Programming"]
+-----------------------------------------------------
+- question num :  200
+    - question link :  https://leetcode.com/problems/number-of-islands/
+    - difficulty :  Medium
+    - topic tags :  ["Array","Depth-First Search","Breadth-First Search","Union Find","Matrix"]
+-----------------------------------------------------
+- question num :  207
+    - question link :  https://leetcode.com/problems/course-schedule/
+    - difficulty :  Medium
+    - topic tags :  ["Depth-First Search","Breadth-First Search","Graph","Topological Sort"]
+-----------------------------------------------------
+- question num :  208
+    - question link :  https://leetcode.com/problems/implement-trie-prefix-tree/
+    - difficulty :  Medium
+    - topic tags :  ["Hash Table","String","Design","Trie"]
+-----------------------------------------------------
+- question num :  215
+    - question link :  https://leetcode.com/problems/kth-largest-element-in-an-array/
+    - difficulty :  Medium
+    - topic tags :  ["Array","Divide and Conquer","Sorting","Heap (Priority Queue)","Quickselect"]
+-----------------------------------------------------
+- question num :  230
+    - question link :  https://leetcode.com/problems/kth-smallest-element-in-a-bst/
+    - difficulty :  Medium
+    - topic tags :  ["Tree","Depth-First Search","Binary Search Tree","Binary Tree"]
+-----------------------------------------------------
+- question num :  236
+    - question link :  https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/
+    - difficulty :  Medium
+    - topic tags :  ["Tree","Depth-First Search","Binary Tree"]
+-----------------------------------------------------
+- question num :  238
+    - question link :  https://leetcode.com/problems/product-of-array-except-self/
+    - difficulty :  Medium
+    - topic tags :  ["Array","Prefix Sum"]
+-----------------------------------------------------
+- question num :  240
+    - question link :  https://leetcode.com/problems/search-a-2d-matrix-ii/
+    - difficulty :  Medium
+    - topic tags :  ["Array","Binary Search","Divide and Conquer","Matrix"]
+-----------------------------------------------------
+- question num :  279
+    - question link :  https://leetcode.com/problems/perfect-squares/
+    - difficulty :  Medium
+    - topic tags :  ["Math","Dynamic Programming","Breadth-First Search"]
+-----------------------------------------------------
+- question num :  287
+    - question link :  https://leetcode.com/problems/find-the-duplicate-number/
+    - difficulty :  Medium
+    - topic tags :  ["Array","Two Pointers","Binary Search","Bit Manipulation"]
+-----------------------------------------------------
+- question num :  300
+    - question link :  https://leetcode.com/problems/longest-increasing-subsequence/
+    - difficulty :  Medium
+    - topic tags :  ["Array","Binary Search","Dynamic Programming"]
+-----------------------------------------------------
+- question num :  322
+    - question link :  https://leetcode.com/problems/coin-change/
+    - difficulty :  Medium
+    - topic tags :  ["Array","Dynamic Programming","Breadth-First Search"]
+-----------------------------------------------------
+- question num :  347
+    - question link :  https://leetcode.com/problems/top-k-frequent-elements/
+    - difficulty :  Medium
+    - topic tags :  ["Array","Hash Table","Divide and Conquer","Sorting","Heap (Priority Queue)","Bucket Sort","Counting","Quickselect"]
+-----------------------------------------------------
+- question num :  378
+    - question link :  https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/
+    - difficulty :  Medium
+    - topic tags :  ["Array","Binary Search","Sorting","Heap (Priority Queue)","Matrix"]
+-----------------------------------------------------
+- question num :  4
+    - question link :  https://leetcode.com/problems/median-of-two-sorted-arrays/
+    - difficulty :  Hard
+    - topic tags :  ["Array","Binary Search","Divide and Conquer"]
+-----------------------------------------------------
+- question num :  10
+    - question link :  https://leetcode.com/problems/regular-expression-matching/
+    - difficulty :  Hard
+    - topic tags :  ["String","Dynamic Programming","Recursion"]
+-----------------------------------------------------
+- question num :  23
+    - question link :  https://leetcode.com/problems/merge-k-sorted-lists/
+    - difficulty :  Hard
+    - topic tags :  ["Linked List","Divide and Conquer","Heap (Priority Queue)","Merge Sort"]
+-----------------------------------------------------
+- question num :  41
+    - question link :  https://leetcode.com/problems/first-missing-positive/
+    - difficulty :  Hard
+    - topic tags :  ["Array","Hash Table"]
+-----------------------------------------------------
+- question num :  42
+    - question link :  https://leetcode.com/problems/trapping-rain-water/
+    - difficulty :  Hard
+    - topic tags :  ["Array","Two Pointers","Dynamic Programming","Stack","Monotonic Stack"]
+-----------------------------------------------------
+- question num :  76
+    - question link :  https://leetcode.com/problems/minimum-window-substring/
+    - difficulty :  Hard
+    - topic tags :  ["Hash Table","String","Sliding Window"]
+-----------------------------------------------------
+- question num :  84
+    - question link :  https://leetcode.com/problems/largest-rectangle-in-histogram/
+    - difficulty :  Hard
+    - topic tags :  ["Array","Stack","Monotonic Stack"]
+-----------------------------------------------------
+- question num :  124
+    - question link :  https://leetcode.com/problems/binary-tree-maximum-path-sum/
+    - difficulty :  Hard
+    - topic tags :  ["Dynamic Programming","Tree","Depth-First Search","Binary Tree"]
+-----------------------------------------------------
+- question num :  239
+    - question link :  https://leetcode.com/problems/sliding-window-maximum/
+    - difficulty :  Hard
+    - topic tags :  ["Array","Queue","Sliding Window","Heap (Priority Queue)","Monotonic Queue"]
+-----------------------------------------------------
+- question num :  295
+    - question link :  https://leetcode.com/problems/find-median-from-data-stream/
+    - difficulty :  Hard
+    - topic tags :  ["Two Pointers","Design","Sorting","Heap (Priority Queue)","Data Stream"]
+-----------------------------------------------------
+- question num :  297
+    - question link :  https://leetcode.com/problems/serialize-and-deserialize-binary-tree/
+    - difficulty :  Hard
+    - topic tags :  ["String","Tree","Depth-First Search","Breadth-First Search","Design","Binary Tree"]
+      ——————————————————————————
