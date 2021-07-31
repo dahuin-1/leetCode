@@ -1,6 +1,7 @@
 package Top100andTopInterview;
 
 import java.util.HashMap;
+import java.util.Map;
 
 public class TwoSum {
 
@@ -11,19 +12,17 @@ public class TwoSum {
     }
 
     public int[] twoSum(int[] nums, int target) {
-        HashMap<Integer, Integer> map = new HashMap<Integer, Integer>();
-        int[] answer = {};
+        int[] answer = new int[2];
+        Map<Integer,Integer> map = new HashMap<>();
         for(int i = 0; i < nums.length; i++){
-            map.put(nums[i], i);
-        }
-
-        for (int i = 0; i < nums.length; i++) {
-            int newTarget = target - nums[i];
-            if (map.containsKey(newTarget) && i != map.get(newTarget)) {
-                answer = new int[]{i, map.get(newTarget)};
+            int tempTarget = target - nums[i];
+            if(map.containsKey(tempTarget)) {
+                answer[0] = map.get(tempTarget);
+                answer[1] = i;
                 return answer;
             }
+            map.put(nums[i], i);
         }
-        throw new IllegalArgumentException("No two sum solution");
+       return answer;
     }
 }
