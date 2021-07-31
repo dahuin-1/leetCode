@@ -32,7 +32,6 @@ public class ContainerWithMostWater {
     public int dp(int left, int right, int num) {
         int y = Math.min(left, right);
         int x = num;
-
         return x * y;
     }
 
