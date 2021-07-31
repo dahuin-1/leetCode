@@ -1,12 +1,12 @@
-# leetCode 문제 뿌시기
+# leetCode
 
 
--Top Interview Questions와 Top 100 Liked Questions에 모두 속한 문제를 먼저 풀고, Top 100 Liked Questions에만 속한문제, Top Interview Questions에만 속한 문제를 풀 계획입니다.
+-리트코드 API를 통해서 Top Interview Questions와 Top 100 Liked Questions에 공통적으로 속한 문제를 리스트업했습니다. 여기에 해당하는 문제를 먼저 풀고, Top 100 Liked Questions에만 속한문제, Top Interview Questions에만 속한 문제를 풀 계획입니다.
 <br/>
 
 -40분의 제한시간 동안 풀지 못한 문제는 discuss를 참고해서 풀이 방법을 공부합니다. 이후, 혼자서 풀었을 때 success가 뜬 문제만 최종적으로 이곳에 push 합니다.
 
-### top 100 liked questions와 top interview questions 리스트에 모두 속한 문제를 모았습니다.
+### 1. top 100 liked questions와 top interview questions 리스트에 공통으로 속한 문제 모음
 
 - question num :  1
     - question link :  https://leetcode.com/problems/two-sum/
