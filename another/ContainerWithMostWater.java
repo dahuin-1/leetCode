@@ -1,6 +1,4 @@
-package byjava;
-
-import java.util.Map;
+package another;
 
 public class ContainerWithMostWater {
 

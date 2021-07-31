@@ -1,6 +1,5 @@
-package byjava;
+package another;
 
-import java.awt.event.ItemEvent;
 import java.util.*;
 
 public class DecodeWays {

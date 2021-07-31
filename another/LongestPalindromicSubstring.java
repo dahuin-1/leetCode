@@ -1,4 +1,4 @@
-package byjava;
+package another;
 
 public class LongestPalindromicSubstring {
 

@@ -1,7 +1,5 @@
 package solutions;
 
-import byjava.DecodeWays;
-
 public class DecodeWays_sol91 {
     public static void main(String[] args) {
         DecodeWays_sol91 decodeWays = new DecodeWays_sol91();
