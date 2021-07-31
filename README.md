@@ -35,6 +35,7 @@
 - question num :  94
   - question link :  https://leetcode.com/problems/binary-tree-inorder-traversal/
   - difficulty :  Easy
+  - solution : https://github.com/dahuin-1/leetCodebyJAVA/blob/master/Top100andTopInterview/binarytree/BinaryTreeInorderTraversal.java
 -----------------------------------------------------
 - question num :  101
   - question link :  https://leetcode.com/problems/symmetric-tree/
