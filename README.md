@@ -41,6 +41,7 @@
 - question num :  101
   - question link :  https://leetcode.com/problems/symmetric-tree/
   - difficulty :  Easy
+  - solution : https://github.com/dahuin-1/leetCodebyJAVA/blob/master/Top100andTopInterview/binarytree/SymmetricTree.java
 -----------------------------------------------------
 - question num :  104
   - question link :  https://leetcode.com/problems/maximum-depth-of-binary-tree/
