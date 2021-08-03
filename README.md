@@ -46,6 +46,7 @@
 - question num :  104
   - question link :  https://leetcode.com/problems/maximum-depth-of-binary-tree/
   - difficulty :  Easy
+  - solution : https://github.com/dahuin-1/leetCodebyJAVA/blob/master/Top100andTopInterview/binarytree/MaximumDepthOfBinaryTree.java
 -----------------------------------------------------
 - question num :  121
   - question link :  https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
