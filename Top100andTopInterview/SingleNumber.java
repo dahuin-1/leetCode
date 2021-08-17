@@ -1,9 +1,6 @@
 package Top100andTopInterview;
 
 import java.util.HashMap;
-import java.util.Map;
-import java.util.Stack;
-
 
 public class SingleNumber {
     public static void main(String[] args) {
