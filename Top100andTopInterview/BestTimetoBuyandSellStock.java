@@ -6,13 +6,21 @@ import java.util.Map;
 public class BestTimetoBuyandSellStock {
     public static void main(String[] args) {
         BestTimetoBuyandSellStock best = new BestTimetoBuyandSellStock();
-        int[] prices = new int[]{7, 1, 5, 3, 6, 4};
+        int[] prices = new int[]{5, 4, 3, 2, 1};
         System.out.println(best.maxProfit(prices));
     }
 
     public int maxProfit(int[] prices) {
-        int max = 0;
+        int maxProfit = 0;
+        int min = Integer.MAX_VALUE;
 
-        return max;
+        for (int price : prices) {
+            if (price < min) {
+                min = price;
+            } else if (price > min) {
+                maxProfit = Math.max(price - min, maxProfit);
+            }
+        }
+        return maxProfit;
     }
 }
