@@ -51,10 +51,12 @@
 - question num :  121
   - question link :  https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
   - difficulty :  Easy
+  - solution : https://github.com/dahuin-1/leetCodebyJAVA/blob/master/Top100andTopInterview/BestTimetoBuyandSellStock.java
 -----------------------------------------------------
 - question num :  136
   - question link :  https://leetcode.com/problems/single-number/
   - difficulty :  Easy
+  - solution : https://github.com/dahuin-1/leetCodebyJAVA/blob/master/Top100andTopInterview/SingleNumber.java
 -----------------------------------------------------
 - question num :  141
   - question link :  https://leetcode.com/problems/linked-list-cycle/
