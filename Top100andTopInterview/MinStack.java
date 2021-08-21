@@ -10,19 +10,17 @@ public class MinStack {
 
     public static void main(String[] args) {
         MinStack obj = new MinStack();
-
         obj.push(2);
         obj.push(1);
         obj.push(3);
         obj.push(1);
-
-        System.out.println("min"+obj.getMin());
+        System.out.println("min" + obj.getMin());
         obj.pop();
-        System.out.println("min"+obj.getMin());
+        System.out.println("min" + obj.getMin());
         obj.pop();
-        System.out.println("min"+obj.getMin());//2???????
+        System.out.println("min" + obj.getMin());//2???????
         obj.pop();
-        System.out.println("min"+obj.getMin());
+        System.out.println("min" + obj.getMin());
     }
 
     /**
@@ -39,7 +37,6 @@ public class MinStack {
         else
             head = new Node(val, Math.min(val, head.min), head);
     }
-
 
     public void pop() {
         head = head.prev;
