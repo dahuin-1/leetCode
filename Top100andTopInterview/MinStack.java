@@ -6,58 +6,97 @@ import java.util.List;
 public class MinStack {
 
     List<List<Integer>> stack;
+    private Node head;
 
     public static void main(String[] args) {
         MinStack obj = new MinStack();
-        obj.push(5);
-        obj.push(6);
-        obj.push(7);
-        System.out.println(obj);
-        System.out.println(obj.getMin());
-        obj.pop();
-        System.out.println(obj);
 
+        obj.push(2);
+        obj.push(1);
+        obj.push(3);
+        obj.push(1);
+
+        System.out.println("min"+obj.getMin());
+        obj.pop();
+        System.out.println("min"+obj.getMin());
+        obj.pop();
+        System.out.println("min"+obj.getMin());//2???????
+        obj.pop();
+        System.out.println("min"+obj.getMin());
     }
-    /** initialize your data structure here. */
+
+    /**
+     * initialize your data structure here.
+     */
+
     public MinStack() {
         stack = new ArrayList<>();
     }
 
     public void push(int val) {
-        //int stackSize = stack.size();
-        List sublist = new ArrayList();
-        //if(stack.isEmpty()) {
-            sublist.add(val);
-            stack.add(sublist);
-      //  }else{
-           // stack = new ArrayList<>(stack.size()+1);
-           /* int stackSize = stack.size();
-            System.out.println("stack size - 1 = " + stackSize);
-            stack.add(stackSize + 1, stack.get(stackSize));*/
-      //  }
-       // System.out.println(stack);
+        if (head == null)
+            head = new Node(val, val, null);
+        else
+            head = new Node(val, Math.min(val, head.min), head);
     }
 
 
     public void pop() {
-      // for(int i = stack.size()-1; i == 0; i--){
-           stack.remove(stack.get(stack.size()-1));
-     //  }
+        head = head.prev;
     }
 
     public int top() {
-return 1;
+        return head.val;
     }
 
     public int getMin() {
-        int min = Integer.MAX_VALUE;
-        for (List<Integer> list : stack) {
-            if (min > list.get(0)) {
-                min = list.get(0);
-            }
-            //System.out.println(min);
-            //return min;
+        return head.min;
+    }
+
+    private class Node {
+        int val;
+        int min;
+        Node prev;
+
+        private Node(int val, int min, Node prev) {
+            this.val = val;
+            this.min = min;
+            this.prev = prev;
         }
-        return min;
     }
 }
+
+/*
+private Node head;
+
+    public void push(int x) {
+        if (head == null)
+            head = new Node(x, x, null);
+        else
+            head = new Node(x, Math.min(x, head.min), head);
+    }
+
+    public void pop() {
+        head = head.next;
+    }
+
+    public int top() {
+        return head.val;
+    }
+
+    public int getMin() {
+        return head.min;
+    }
+
+    private class Node {
+        int val;
+        int min;
+        Node next;
+
+        private Node(int val, int min, Node next) {
+            this.val = val;
+            this.min = min;
+            this.next = next;
+        }
+    }
+ */
