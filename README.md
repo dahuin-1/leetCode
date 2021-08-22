@@ -71,7 +71,7 @@
 - question num :  160
   - question link :  https://leetcode.com/problems/intersection-of-two-linked-lists/
   - difficulty :  Easy
-  
+  - solution : 
 -----------------------------------------------------
 - question num :  169
   - question link :  https://leetcode.com/problems/majority-element/
@@ -81,14 +81,17 @@
 - question num :  206
   - question link :  https://leetcode.com/problems/reverse-linked-list/
   - difficulty :  Easy
+  - solution :
 -----------------------------------------------------
 - question num :  234
   - question link :  https://leetcode.com/problems/palindrome-linked-list/
   - difficulty :  Easy
+  - solution : https://github.com/dahuin-1/leetCodebyJAVA/blob/master/Top100andTopInterview/PalindromeLinkedList.java
 -----------------------------------------------------
 - question num :  283
   - question link :  https://leetcode.com/problems/move-zeroes/
   - difficulty :  Easy
+  - solution : https://github.com/dahuin-1/leetCodebyJAVA/blob/master/Top100andTopInterview/moveZeroes.java
 -----------------------------------------------------
 - question num :  2
   - question link :  https://leetcode.com/problems/add-two-numbers/
