@@ -35,7 +35,7 @@ public class MinStack {
         if (head == null)
             head = new Node(val, val, null);
         else
-            head = new Node(val, Math.min(val, head.min), head);
+            head = new Node(val, Math.min(val, head.min), head); //val, min, next
     }
 
     public void pop() {
