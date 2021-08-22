@@ -61,18 +61,22 @@
 - question num :  141
   - question link :  https://leetcode.com/problems/linked-list-cycle/
   - difficulty :  Easy
+  - solution : https://github.com/dahuin-1/leetCodebyJAVA/blob/master/Top100andTopInterview/LinkedListCycle.java
 -----------------------------------------------------
 - question num :  155
   - question link :  https://leetcode.com/problems/min-stack/
   - difficulty :  Easy
+  - solution : https://github.com/dahuin-1/leetCodebyJAVA/blob/master/Top100andTopInterview/MinStack.java
 -----------------------------------------------------
 - question num :  160
   - question link :  https://leetcode.com/problems/intersection-of-two-linked-lists/
   - difficulty :  Easy
+  
 -----------------------------------------------------
 - question num :  169
   - question link :  https://leetcode.com/problems/majority-element/
   - difficulty :  Easy
+  - solution : https://github.com/dahuin-1/leetCodebyJAVA/blob/master/Top100andTopInterview/MajorityElement.java
 -----------------------------------------------------
 - question num :  206
   - question link :  https://leetcode.com/problems/reverse-linked-list/
