@@ -4,20 +4,14 @@ import java.util.Stack;
 
 public class ReverseLinkedList {
     public ListNode reverseList(ListNode head) {
-        ListNode currentNode = head;
-        ListNode returnNode;
-        Stack stack = new Stack();
-        while (currentNode != null){
-            stack.push(currentNode.val);
-            currentNode = currentNode.next;
+        ListNode prevHead = null;
+        while(head != null){
+            ListNode recordNext = head.next;
+            head.next = prevHead;
+            prevHead = head;
+            head = recordNext;
         }
-        while (!stack.isEmpty()) {
-            returnNode = (ListNode) stack.pop();
-
-
-            return (ListNode) stack.pop();
-        }
-
+        return prevHead;
     }
 
     public class ListNode {
