@@ -35,16 +35,12 @@ public class LongestSubstringWithoutRepeatingCharacters {
             result += s.charAt(i);
             list.add(0,result);
         }
-        if(list.get(0).length() <= result.length()) {
-            list.add(0,result);
-        }else if(list.size()==0){
-
+        if(list.size()==0){
+            list.add(0, result);
         }
-       /* for(int i = 0; i < list.size(); i++){
-            System.out.println(list.get(i));
-        }*/
-       // System.out.println(list.get(0));
-        //System.out.println(list.get(0).length());
+        else if (list.get(0).length() <= result.length()) {
+            list.add(0, result);
+        }
         return list.get(0).length();
     }
 }
