@@ -10,7 +10,7 @@ import java.util.Map;
 public class LongestSubstringWithoutRepeatingCharacters {
     public static void main(String[] args) {
         LongestSubstringWithoutRepeatingCharacters ls = new LongestSubstringWithoutRepeatingCharacters();
-        System.out.println(ls.lengthOfLongestSubstring("au"));
+        System.out.println(ls.lengthOfLongestSubstring("abcabcbb"));
 
     }
     public int lengthOfLongestSubstring(String s) {
@@ -23,10 +23,12 @@ public class LongestSubstringWithoutRepeatingCharacters {
         Map<Character,Integer> map = new HashMap<>();
         List<String > list = new ArrayList<>();
         String result = "";
-        for(int i = 0; i < s.length(); i++){
+        int k = 0;
+        for(int i = k; i < s.length(); i++) {
             if(map.containsKey(s.charAt(i))){
+                i = i - 1;
                 if(list.size() == 0 || list.get(0).length() <= result.length()){
-                    list.add(0,result);
+                    list.add(0, result);
                 }
                 result = "";
                 map.clear();
