@@ -4,6 +4,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class LongestSubstring_sol {
+
     public static void main(String[] args) {
         LongestSubstring_sol lss = new LongestSubstring_sol();
         lss.lengthOfLongestSubstring("pwwkew");
