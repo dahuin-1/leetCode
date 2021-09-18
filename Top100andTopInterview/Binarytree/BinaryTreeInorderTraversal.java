@@ -1,4 +1,4 @@
-package Top100andTopInterview.binarytree;
+package Top100andTopInterview.Binarytree;
 
 import java.util.ArrayList;
 import java.util.List;
