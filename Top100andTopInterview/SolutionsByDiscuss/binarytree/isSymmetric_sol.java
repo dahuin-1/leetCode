@@ -1,4 +1,4 @@
-package solutions.binarytree;
+package Top100andTopInterview.SolutionsByDiscuss.binarytree;
 
 public class isSymmetric_sol {
     public boolean isSymmetric(TreeNode root) {

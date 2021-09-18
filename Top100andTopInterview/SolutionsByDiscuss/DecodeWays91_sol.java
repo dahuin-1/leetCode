@@ -1,4 +1,4 @@
-package solutions;
+package Top100andTopInterview.SolutionsByDiscuss;
 
 public class DecodeWays91_sol {
 

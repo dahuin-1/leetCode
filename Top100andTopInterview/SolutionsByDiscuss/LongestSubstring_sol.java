@@ -1,4 +1,4 @@
-package solutions;
+package Top100andTopInterview.SolutionsByDiscuss;
 
 import java.util.HashSet;
 import java.util.Set;

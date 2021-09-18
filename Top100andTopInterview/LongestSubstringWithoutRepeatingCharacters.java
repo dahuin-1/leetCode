@@ -1,26 +1,29 @@
 package Top100andTopInterview;
 
-import java.util.HashSet;
-import java.util.Set;
+import java.util.HashMap;
+import java.util.Map;
 
 public class LongestSubstringWithoutRepeatingCharacters {
 
+    public static void main(String[] args) {
+        LongestSubstringWithoutRepeatingCharacters ls = new LongestSubstringWithoutRepeatingCharacters();
+        ls.lengthOfLongestSubstring("abbcde");
+    }
+
     public int lengthOfLongestSubstring(String s) {
-        char[] arr = s.toCharArray();
-        // Use a HashMap<Character, Integer> if dup is allowed.
-        // Limit the size of Set if at most k distinct char allowed.
-        Set<Character> memory = new HashSet<>();
-        int result = 0;
-        // p1 is a pioneer pointer. So p1 <= length.
-        for (int p1 = 1, p2 = 0; p1 <= arr.length; p1++) {
-            char cur = arr[p1 - 1];
-            while (memory.contains(cur)) {
-                memory.remove(arr[p2]);
-                p2++;
+        Map<Character,Integer> map = new HashMap<Character,Integer>();
+        int length = 0;
+        int start = -1;
+        int i = 0;
+        for(i = 0; i < s.length(); i++){
+            char c = s.charAt(i);
+            if(map.containsKey(c)){
+                int newStart = map.get(c);
+                start = Math.max(start,newStart);
             }
-            memory.add(cur);
-            result = Math.max(result, p1 - p2);
+            length = Math.max(length,i-start);
+            map.put(c,i);
         }
-        return result;
+        return length;
     }
 }

@@ -1,4 +1,4 @@
-package solutions;
+package Top100andTopInterview.SolutionsByDiscuss;
 
 /**
  * Definition for singly-linked list.

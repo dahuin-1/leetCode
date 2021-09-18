@@ -1,4 +1,4 @@
-package solutions.binarytree;
+package Top100andTopInterview.SolutionsByDiscuss.binarytree;
 
 import java.util.Stack;
 
