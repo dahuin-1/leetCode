@@ -1,4 +1,4 @@
-package another;
+package AnotherProblems;
 
 public class LongestCommonPrefix {
 

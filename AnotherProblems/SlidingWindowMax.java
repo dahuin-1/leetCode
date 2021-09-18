@@ -1,6 +1,4 @@
-package another;
-
-import java.util.Map;
+package AnotherProblems;
 
 public class SlidingWindowMax {
     public static void main(String[] args) {

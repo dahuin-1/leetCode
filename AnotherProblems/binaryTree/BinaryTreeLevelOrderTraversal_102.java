@@ -1,4 +1,4 @@
-package another.binaryTree;
+package AnotherProblems.binaryTree;
 
 import java.util.*;
 
