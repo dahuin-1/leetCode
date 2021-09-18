@@ -23,6 +23,8 @@ public class LongestSubstringWithoutRepeatingCharacters {
             }
             length = Math.max(length,i-start);
             map.put(c,i);
+
+
         }
         return length;
     }
