@@ -12,11 +12,11 @@ public class BinaryTreeLevelOrderTraversal_102 {
             return resultList;
         }
         queue.offer(currentNode);
-        while(!queue.isEmpty()) {
+        while (!queue.isEmpty()) {
             List<Integer> sublist = new ArrayList<>();
             int size = queue.size();
 
-            for(int i = 0; i < size; i++) {
+            for (int i = 0; i < size; i++) {
                 TreeNode tempNode = queue.peek();
                 if (tempNode.left != null) {
                     queue.add(tempNode.left);
@@ -31,16 +31,22 @@ public class BinaryTreeLevelOrderTraversal_102 {
         return resultList;
     }
 
-     public class TreeNode {
-          int val;
-          TreeNode left;
-          TreeNode right;
-          TreeNode() {}
-          TreeNode(int val) { this.val = val; }
-          TreeNode(int val, TreeNode left, TreeNode right) {
-              this.val = val;
-              this.left = left;
-              this.right = right;
-          }
-      }
+    public class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+
+        TreeNode() {
+        }
+
+        TreeNode(int val) {
+            this.val = val;
+        }
+
+        TreeNode(int val, TreeNode left, TreeNode right) {
+            this.val = val;
+            this.left = left;
+            this.right = right;
+        }
+    }
 }

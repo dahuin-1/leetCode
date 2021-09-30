@@ -13,14 +13,14 @@ public class ValidateBinarySearchTree_98 {
         Stack<TreeNode> stack = new Stack<>();
         TreeNode currentNode = root;
         TreeNode pre = null;
-        while(currentNode != null || !stack.empty()) {
-            while(currentNode != null){
+        while (currentNode != null || !stack.empty()) {
+            while (currentNode != null) {
                 stack.add(currentNode);
                 currentNode = currentNode.left;
             }
             currentNode = stack.pop();
 
-            if(pre != null && currentNode.val <= pre.val) {
+            if (pre != null && currentNode.val <= pre.val) {
                 return false;
             }
             pre = currentNode;
@@ -29,8 +29,6 @@ public class ValidateBinarySearchTree_98 {
         }
         return true;
     }
-
-
     public class TreeNode {
         int val;
         TreeNode left;

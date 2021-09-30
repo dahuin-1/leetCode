@@ -12,7 +12,7 @@ public class KthSmallestBST {
 
         TreeNode currentNode = root;
 
-        while (currentNode != null || !stack.isEmpty()){
+        while (currentNode != null || !stack.isEmpty()) {
             while (currentNode != null) {
                 stack.push(currentNode);
                 currentNode = currentNode.left;
@@ -21,20 +21,26 @@ public class KthSmallestBST {
             list.add(currentNode.val);
             currentNode = currentNode.right;
         }
-        return list.get(k-1);
+        return list.get(k - 1);
     }
 
-      public class TreeNode {
-          int val;
-          TreeNode left;
-          TreeNode right;
-          TreeNode() {}
-          TreeNode(int val) { this.val = val; }
-          TreeNode(int val, TreeNode left, TreeNode right) {
-              this.val = val;
-              this.left = left;
-              this.right = right;
-          }
-      }
+    public class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+
+        TreeNode() {
+        }
+
+        TreeNode(int val) {
+            this.val = val;
+        }
+
+        TreeNode(int val, TreeNode left, TreeNode right) {
+            this.val = val;
+            this.left = left;
+            this.right = right;
+        }
+    }
 
 }
