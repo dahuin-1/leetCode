@@ -29,7 +29,6 @@ public class MaximumDepthOfBinaryTree {
         return resultList.size();
     }
 
-
     public class TreeNode {
         int val;
         TreeNode left;
@@ -48,4 +47,5 @@ public class MaximumDepthOfBinaryTree {
             this.right = right;
         }
     }
+
 }

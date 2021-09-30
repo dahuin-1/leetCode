@@ -5,19 +5,19 @@ import java.util.*;
 public class SymmetricTree {
 
     public boolean isSymmetric(TreeNode root) {
-        if(root == null) return true;
+        if (root == null) return true;
         Stack<TreeNode> stack = new Stack<TreeNode>();
         stack.push(root.left);
         stack.push(root.right);
         TreeNode left, right;
 
-        while(!stack.empty()){
+        while (!stack.empty()) {
             left = stack.pop();
             right = stack.pop();
-            if(left == null && right == null){
+            if (left == null && right == null) {
                 continue;
             }
-            if(left==null || right == null || left.val != right.val){
+            if (left == null || right == null || left.val != right.val) {
                 return false;
             }
             stack.push(left.left);
