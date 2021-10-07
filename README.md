@@ -104,6 +104,7 @@
 - question num :  5
   - question link :  https://leetcode.com/problems/longest-palindromic-substring/
   - difficulty :  Medium
+  - solution : https://github.com/dahuin-1/leetCode/blob/master/Top100andTopInterview/LongestPalindromicSubstring.java
 -----------------------------------------------------
 - question num :  11
   - question link :  https://leetcode.com/problems/container-with-most-water/
