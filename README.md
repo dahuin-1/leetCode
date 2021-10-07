@@ -11,27 +11,27 @@
 - question num :  1
     - question link :  https://leetcode.com/problems/two-sum/
     - difficulty :  Easy
-    - solution : https://github.com/dahuin-1/leetCodebyJAVA/blob/master/Top100andTopInterview/TwoSum.java
+    - solution : https://github.com/dahuin-1/leetCodebyJAVA/blob/master/Top100andTopInterview/easy/TwoSum.java
 -----------------------------------------------------
 - question num :  20
     - question link :  https://leetcode.com/problems/valid-parentheses/
     - difficulty :  Easy
-    - solution : https://github.com/dahuin-1/leetCodebyJAVA/blob/master/Top100andTopInterview/validParenthesesByStack.java
+    - solution : https://github.com/dahuin-1/leetCodebyJAVA/blob/master/Top100andTopInterview/easy/validParenthesesByStack.java
 -----------------------------------------------------
 - question num :  21
     - question link :  https://leetcode.com/problems/merge-two-sorted-lists/
     - difficulty :  Easy
-    - solution : https://github.com/dahuin-1/leetCodebyJAVA/blob/master/Top100andTopInterview/MergeTwoSortedLists.java
+    - solution : https://github.com/dahuin-1/leetCodebyJAVA/blob/master/Top100andTopInterview/easy/MergeTwoSortedLists.java
 -----------------------------------------------------
 - question num :  53
   - question link :  https://leetcode.com/problems/maximum-subarray/
   - difficulty :  Easy
-  - solution : https://github.com/dahuin-1/leetCodebyJAVA/blob/master/Top100andTopInterview/MaximumSubarray.java
+  - solution : https://github.com/dahuin-1/leetCodebyJAVA/blob/master/Top100andTopInterview/easy/MaximumSubarray.java
 -----------------------------------------------------
 - question num :  70
   - question link :  https://leetcode.com/problems/climbing-stairs/
   - difficulty :  Easy
-  - solution : https://github.com/dahuin-1/leetCodebyJAVA/blob/master/Top100andTopInterview/ClimbingStairs.java
+  - solution : https://github.com/dahuin-1/leetCodebyJAVA/blob/master/Top100andTopInterview/easy/ClimbingStairs.java
 -----------------------------------------------------
 - question num :  94
   - question link :  https://leetcode.com/problems/binary-tree-inorder-traversal/
@@ -51,22 +51,22 @@
 - question num :  121
   - question link :  https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
   - difficulty :  Easy
-  - solution : https://github.com/dahuin-1/leetCodebyJAVA/blob/master/Top100andTopInterview/BestTimetoBuyandSellStock.java
+  - solution : https://github.com/dahuin-1/leetCodebyJAVA/blob/master/Top100andTopInterview/easy/BestTimetoBuyandSellStock.java
 -----------------------------------------------------
 - question num :  136
   - question link :  https://leetcode.com/problems/single-number/
   - difficulty :  Easy
-  - solution : https://github.com/dahuin-1/leetCodebyJAVA/blob/master/Top100andTopInterview/SingleNumber.java
+  - solution : https://github.com/dahuin-1/leetCodebyJAVA/blob/master/Top100andTopInterview/easy/SingleNumber.java
 -----------------------------------------------------
 - question num :  141
   - question link :  https://leetcode.com/problems/linked-list-cycle/
   - difficulty :  Easy
-  - solution : https://github.com/dahuin-1/leetCodebyJAVA/blob/master/Top100andTopInterview/LinkedListCycle.java
+  - solution : https://github.com/dahuin-1/leetCodebyJAVA/blob/master/Top100andTopInterview/easy/LinkedListCycle.java
 -----------------------------------------------------
 - question num :  155
   - question link :  https://leetcode.com/problems/min-stack/
   - difficulty :  Easy
-  - solution : https://github.com/dahuin-1/leetCodebyJAVA/blob/master/Top100andTopInterview/MinStack.java
+  - solution : https://github.com/dahuin-1/leetCodebyJAVA/blob/master/Top100andTopInterview/easy/MinStack.java
 -----------------------------------------------------
 - question num :  160
   - question link :  https://leetcode.com/problems/intersection-of-two-linked-lists/
@@ -76,7 +76,7 @@
 - question num :  169
   - question link :  https://leetcode.com/problems/majority-element/
   - difficulty :  Easy
-  - solution : https://github.com/dahuin-1/leetCodebyJAVA/blob/master/Top100andTopInterview/MajorityElement.java
+  - solution : https://github.com/dahuin-1/leetCodebyJAVA/blob/master/Top100andTopInterview/easy/MajorityElement.java
 -----------------------------------------------------
 - question num :  206
   - question link :  https://leetcode.com/problems/reverse-linked-list/
@@ -86,12 +86,12 @@
 - question num :  234
   - question link :  https://leetcode.com/problems/palindrome-linked-list/
   - difficulty :  Easy
-  - solution : https://github.com/dahuin-1/leetCodebyJAVA/blob/master/Top100andTopInterview/PalindromeLinkedList.java
+  - solution : https://github.com/dahuin-1/leetCodebyJAVA/blob/master/Top100andTopInterview/easy/PalindromeLinkedList.java
 -----------------------------------------------------
 - question num :  283
   - question link :  https://leetcode.com/problems/move-zeroes/
   - difficulty :  Easy
-  - solution : https://github.com/dahuin-1/leetCodebyJAVA/blob/master/Top100andTopInterview/moveZeroes.java
+  - solution : https://github.com/dahuin-1/leetCodebyJAVA/blob/master/Top100andTopInterview/easy/moveZeroes.java
 -----------------------------------------------------
 - question num :  2
   - question link :  https://leetcode.com/problems/add-two-numbers/
@@ -104,7 +104,7 @@
 - question num :  5
   - question link :  https://leetcode.com/problems/longest-palindromic-substring/
   - difficulty :  Medium
-  - solution : https://github.com/dahuin-1/leetCode/blob/master/Top100andTopInterview/LongestPalindromicSubstring.java
+  - solution : https://github.com/dahuin-1/leetCode/blob/master/Top100andTopInterview/medium/LongestPalindromicSubstring.java
 -----------------------------------------------------
 - question num :  11
   - question link :  https://leetcode.com/problems/container-with-most-water/
