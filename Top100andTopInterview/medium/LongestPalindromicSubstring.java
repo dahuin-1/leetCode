@@ -1,4 +1,4 @@
-package Top100andTopInterview;
+package Top100andTopInterview.medium;
 
 public class LongestPalindromicSubstring {
 

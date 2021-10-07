@@ -1,4 +1,4 @@
-package Top100andTopInterview;
+package Top100andTopInterview.easy;
 
 import java.util.Stack;
 

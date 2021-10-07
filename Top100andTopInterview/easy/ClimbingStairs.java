@@ -1,4 +1,4 @@
-package Top100andTopInterview;
+package Top100andTopInterview.easy;
 
 public class ClimbingStairs {
     public int climbStairs(int n) {

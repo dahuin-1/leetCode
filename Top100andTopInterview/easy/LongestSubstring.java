@@ -1,4 +1,4 @@
-package Top100andTopInterview;
+package Top100andTopInterview.easy;
 
 public class LongestSubstring {
     public static void main(String[] args) {

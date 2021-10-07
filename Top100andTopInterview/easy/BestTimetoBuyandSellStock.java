@@ -1,7 +1,4 @@
-package Top100andTopInterview;
-
-import java.util.HashMap;
-import java.util.Map;
+package Top100andTopInterview.easy;
 
 public class BestTimetoBuyandSellStock {
     public static void main(String[] args) {

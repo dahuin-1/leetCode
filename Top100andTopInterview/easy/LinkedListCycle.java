@@ -1,4 +1,4 @@
-package Top100andTopInterview;
+package Top100andTopInterview.easy;
 
 public class LinkedListCycle {
     public boolean hasCycle(ListNode head) {
