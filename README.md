@@ -71,7 +71,7 @@
 - question num :  160
   - question link :  https://leetcode.com/problems/intersection-of-two-linked-lists/
   - difficulty :  Easy
-  - solution : 
+  - solution : https://github.com/dahuin-1/leetCode/blob/master/Top100andTopInterview/easy/IntersectionOfTwoLinkedLists.java
 -----------------------------------------------------
 - question num :  169
   - question link :  https://leetcode.com/problems/majority-element/
@@ -81,7 +81,7 @@
 - question num :  206
   - question link :  https://leetcode.com/problems/reverse-linked-list/
   - difficulty :  Easy
-  - solution :
+  - solution : https://github.com/dahuin-1/leetCode/blob/master/Top100andTopInterview/easy/ReverseLinkedList.java
 -----------------------------------------------------
 - question num :  234
   - question link :  https://leetcode.com/problems/palindrome-linked-list/
@@ -96,10 +96,12 @@
 - question num :  2
   - question link :  https://leetcode.com/problems/add-two-numbers/
   - difficulty :  Medium
+  - solution :
 -----------------------------------------------------
 - question num :  3
   - question link :  https://leetcode.com/problems/longest-substring-without-repeating-characters/
   - difficulty :  Medium
+  - solution :
 -----------------------------------------------------
 - question num :  5
   - question link :  https://leetcode.com/problems/longest-palindromic-substring/
@@ -109,6 +111,7 @@
 - question num :  11
   - question link :  https://leetcode.com/problems/container-with-most-water/
   - difficulty :  Medium
+  - solution :
 -----------------------------------------------------
 - question num :  15
   - question link :  https://leetcode.com/problems/3sum/
