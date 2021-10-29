@@ -101,7 +101,7 @@
 - question num :  3
   - question link :  https://leetcode.com/problems/longest-substring-without-repeating-characters/
   - difficulty :  Medium
-  - solution :
+  - solution : https://github.com/dahuin-1/leetCode/blob/master/Top100andTopInterview/medium/LongestSubstringWithoutRepeatingChar.java
 -----------------------------------------------------
 - question num :  5
   - question link :  https://leetcode.com/problems/longest-palindromic-substring/
