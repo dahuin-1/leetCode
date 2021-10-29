@@ -96,7 +96,7 @@
 - question num :  2
   - question link :  https://leetcode.com/problems/add-two-numbers/
   - difficulty :  Medium
-  - solution :
+  - solution : 
 -----------------------------------------------------
 - question num :  3
   - question link :  https://leetcode.com/problems/longest-substring-without-repeating-characters/
