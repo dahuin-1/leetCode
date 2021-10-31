@@ -116,6 +116,7 @@
 - question num :  15
   - question link :  https://leetcode.com/problems/3sum/
   - difficulty :  Medium
+  - solution : https://github.com/dahuin-1/leetCode/blob/master/Top100andTopInterview/medium/sum3.java
 -----------------------------------------------------
 - question num :  17
   - question link :  https://leetcode.com/problems/letter-combinations-of-a-phone-number/
