@@ -1,4 +1,4 @@
-package Top100andTopInterview.SolutionsByDiscuss;
+package Top100andTopInterview.SolutionsByDiscuss.medium;
 
 import java.util.LinkedList;
 import java.util.List;

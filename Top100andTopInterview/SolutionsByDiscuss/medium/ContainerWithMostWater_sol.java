@@ -1,4 +1,4 @@
-package Top100andTopInterview.SolutionsByDiscuss;
+package Top100andTopInterview.SolutionsByDiscuss.medium;
 
 public class ContainerWithMostWater_sol {
 
