@@ -121,10 +121,12 @@
 - question num :  17
   - question link :  https://leetcode.com/problems/letter-combinations-of-a-phone-number/
   - difficulty :  Medium
+  - solution : https://github.com/dahuin-1/leetCode/blob/master/Top100andTopInterview/medium/LetterCombinationsOfAPhoneNum.java
 -----------------------------------------------------
 - question num :  19
   - question link :  https://leetcode.com/problems/remove-nth-node-from-end-of-list/
   - difficulty :  Medium
+  - solution :
 -----------------------------------------------------
 - question num :  22
   - question link :  https://leetcode.com/problems/generate-parentheses/
