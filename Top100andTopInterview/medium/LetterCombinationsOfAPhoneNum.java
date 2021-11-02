@@ -1,43 +1,31 @@
 package Top100andTopInterview.medium;
 
-import java.util.*;
+import java.util.LinkedList;
+import java.util.List;
 
 public class LetterCombinationsOfAPhoneNum {
 
     public static void main(String[] args) {
-        LetterCombinationsOfAPhoneNum lcp = new LetterCombinationsOfAPhoneNum();
-        System.out.println(lcp.letterCombinations("23"));
+        LetterCombinationsOfAPhoneNum lca = new LetterCombinationsOfAPhoneNum();
+        System.out.println(lca.letterCombinations("23"));
     }
-
     public List<String> letterCombinations(String digits) {
-
-       /* Map<Integer, List<String>> map = new HashMap<>();
-        map.put(2, Arrays.asList("a", "b", "c"));
-        map.put(3, Arrays.asList("d", "e", "f"));
-        map.put(4, Arrays.asList("g", "h", "i"));
-        map.put(5, Arrays.asList("j", "k", "l"));
-        map.put(6, Arrays.asList("m", "n", "o"));
-        map.put(7, Arrays.asList("p", "q", "r", "s"));
-        map.put(8, Arrays.asList("t", "u", "v"));
-        map.put(9, Arrays.asList("w", "x", "y", "z"));
-        if (digits.length() == 1) {
-            return map.get(Integer.parseInt(digits));
-        }*/
-        LinkedList<String> ans = new LinkedList<String>();
-        if(digits.isEmpty()) return ans;
-        String[] mapping = new String[] {"0", "1", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"};
-        ans.add("");
-        /////
-        for(int i = 0; i < digits.length(); i++){
-            int x = Character.getNumericValue(digits.charAt(i));
-            while(ans.peek().length()==i){
-                String t = ans.remove();
-                for(char s : mapping[x].toCharArray())
-                    ans.add(t+s);
-            }
+        List<String> list = new LinkedList<>();
+        if(digits == null || digits.length() == 0){
+            return list;
         }
-        //// 이부분 손코딩 해보기
-        return ans;
+        list.add("");
+        char[][] map = {{},{},{'a','b','c'},{'d','e','f'},{'g','h','i'},{'j','k','l'},{'m','n','o'},{'p','q','r','s'},{'t','u','v'},{'w','x','y','z'}};
+        for(int i = 0 ; i < digits.length(); i++){
+            List<String> nextList = new LinkedList<>();
+            int num = digits.charAt(i) - '0';
+            for(String s : list) {
+                for(int k = 0; k < map[num].length; k++) {
+                    nextList.add(s+map[num][k]);
+                }
+            }
+            list = nextList;
+        }
+        return list;
     }
-
-    }
+}

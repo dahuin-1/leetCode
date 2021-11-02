@@ -11,16 +11,17 @@ public class LetterCombinationsOfAPhoneNum {
     }
     public List<String> letterCombinations(String digits) {
         List<String> list = new LinkedList<>();
-        if(digits == null || digits.length() == 0) return list;
+        if(digits == null || digits.length() == 0){
+            return list;
+        }
         list.add("");
         char[][] map = {{},{},{'a','b','c'},{'d','e','f'},{'g','h','i'},{'j','k','l'},{'m','n','o'},{'p','q','r','s'},{'t','u','v'},{'w','x','y','z'}};
-        for(int i = 0; i< digits.length(); i++){
+        for(int i = 0 ; i < digits.length(); i++){
             List<String> nextList = new LinkedList<>();
             int num = digits.charAt(i) - '0';
-            for(String s: list){
-                for(int k = 0; k < map[num].length; k++){
-                    char temp = map[num][k];
-                    nextList.add(s + map[num][k]);
+            for(String s : list) {
+                for(int k = 0; k < map[num].length; k++) {
+                    nextList.add(s+map[num][k]);
                 }
             }
             list = nextList;
