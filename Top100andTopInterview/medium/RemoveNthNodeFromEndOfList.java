@@ -27,7 +27,7 @@ public class RemoveNthNodeFromEndOfList {
         return returnNode;
     }*/
     public ListNode removeNthFromEnd(ListNode head, int n) {
-
+        return head;
     }
 
 
