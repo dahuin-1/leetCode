@@ -131,7 +131,7 @@
 - question num :  22
   - question link :  https://leetcode.com/problems/generate-parentheses/
   - difficulty :  Medium
-  - solution : 
+  - solution : https://github.com/dahuin-1/leetCode/blob/master/Top100andTopInterview/medium/GenerateParentheses.java
 -----------------------------------------------------
 - question num :  33
   - question link :  https://leetcode.com/problems/search-in-rotated-sorted-array/
