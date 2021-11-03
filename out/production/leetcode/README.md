@@ -121,94 +121,117 @@
 - question num :  17
   - question link :  https://leetcode.com/problems/letter-combinations-of-a-phone-number/
   - difficulty :  Medium
+  - solution : https://github.com/dahuin-1/leetCode/blob/master/Top100andTopInterview/medium/LetterCombinationsOfAPhoneNum.java
 -----------------------------------------------------
 - question num :  19
   - question link :  https://leetcode.com/problems/remove-nth-node-from-end-of-list/
   - difficulty :  Medium
+  - solution : https://github.com/dahuin-1/leetCode/blob/master/Top100andTopInterview/medium/RemoveNthNodeFromEndOfList.java
 -----------------------------------------------------
 - question num :  22
   - question link :  https://leetcode.com/problems/generate-parentheses/
   - difficulty :  Medium
+  - solution : https://github.com/dahuin-1/leetCode/blob/master/Top100andTopInterview/medium/GenerateParentheses.java
 -----------------------------------------------------
 - question num :  33
   - question link :  https://leetcode.com/problems/search-in-rotated-sorted-array/
   - difficulty :  Medium
+  - solution : 
 -----------------------------------------------------
 - question num :  34
   - question link :  https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
   - difficulty :  Medium
+  - solution : 
 -----------------------------------------------------
 - question num :  46
   - question link :  https://leetcode.com/problems/permutations/
   - difficulty :  Medium
+  - solution : 
 -----------------------------------------------------
 - question num :  48
   - question link :  https://leetcode.com/problems/rotate-image/
   - difficulty :  Medium
+  - solution : 
 -----------------------------------------------------
 - question num :  49
   - question link :  https://leetcode.com/problems/group-anagrams/
   - difficulty :  Medium
+  - solution : 
 -----------------------------------------------------
 - question num :  55
   - question link :  https://leetcode.com/problems/jump-game/
   - difficulty :  Medium
+  - solution : 
 -----------------------------------------------------
 - question num :  56
   - question link :  https://leetcode.com/problems/merge-intervals/
   - difficulty :  Medium
+  - solution : 
 -----------------------------------------------------
 - question num :  62
   - question link :  https://leetcode.com/problems/unique-paths/
   - difficulty :  Medium
+  - solution : 
 -----------------------------------------------------
 - question num :  75
   - question link :  https://leetcode.com/problems/sort-colors/
   - difficulty :  Medium
+  - solution : 
 -----------------------------------------------------
 - question num :  78
   - question link :  https://leetcode.com/problems/subsets/
   - difficulty :  Medium
+  - solution : 
 -----------------------------------------------------
 - question num :  79
   - question link :  https://leetcode.com/problems/word-search/
   - difficulty :  Medium
+  - solution : 
 -----------------------------------------------------
 - question num :  98
   - question link :  https://leetcode.com/problems/validate-binary-search-tree/
   - difficulty :  Medium
+  - solution : 
 -----------------------------------------------------
 - question num :  102
   - question link :  https://leetcode.com/problems/binary-tree-level-order-traversal/
   - difficulty :  Medium
+  - solution : 
 -----------------------------------------------------
 - question num :  105
   - question link :  https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
   - difficulty :  Medium
+  - solution : 
 -----------------------------------------------------
 - question num :  128
   - question link :  https://leetcode.com/problems/longest-consecutive-sequence/
   - difficulty :  Medium
+  - solution : 
 -----------------------------------------------------
 - question num :  138
   - question link :  https://leetcode.com/problems/copy-list-with-random-pointer/
   - difficulty :  Medium
+  - solution : 
 -----------------------------------------------------
 - question num :  139
   - question link :  https://leetcode.com/problems/word-break/
   - difficulty :  Medium
+  - solution : 
 -----------------------------------------------------
 - question num :  146
   - question link :  https://leetcode.com/problems/lru-cache/
   - difficulty :  Medium
+  - solution : 
 -----------------------------------------------------
 - question num :  148
   - question link :  https://leetcode.com/problems/sort-list/
   - difficulty :  Medium
+  - solution : 
 -----------------------------------------------------
 - question num :  152
   - question link :  https://leetcode.com/problems/maximum-product-subarray/
   - difficulty :  Medium
+  - solution : 
 -----------------------------------------------------
 - question num :  189
   - question link :  https://leetcode.com/problems/rotate-array/
