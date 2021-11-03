@@ -7,8 +7,8 @@ import java.util.List;
 public class SearchInRotatedSortedArray {
     public static void main(String[] args) {
         SearchInRotatedSortedArray searchInRotatedSortedArray = new SearchInRotatedSortedArray();
-        int[] nums = {4, 5, 6, 7, 0, 1, 2};
-        System.out.println(searchInRotatedSortedArray.search(nums, 3));
+        int[] nums = {1,3};
+        System.out.println(searchInRotatedSortedArray.search(nums, 1));
     }
 
     public int search(int[] nums, int target) {
