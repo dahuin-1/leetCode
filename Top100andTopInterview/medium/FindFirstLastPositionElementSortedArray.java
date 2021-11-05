@@ -1,10 +1,8 @@
 package Top100andTopInterview.medium;
 
 import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.HashSet;
 import java.util.List;
-
+//34번문제
 public class FindFirstLastPositionElementSortedArray {
     public static void main(String[] args) {
         FindFirstLastPositionElementSortedArray fflp = new FindFirstLastPositionElementSortedArray();
