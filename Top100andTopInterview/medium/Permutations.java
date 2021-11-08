@@ -15,8 +15,7 @@ public class Permutations {
         return permutations;
     }
 
-    private void collectPermutations(int[] nums, int start, List<Integer> permutation,
-                                     List<List<Integer>>  permutations) {
+    private void collectPermutations(int[] nums, int start, List<Integer> permutation,List<List<Integer>>  permutations) {
 
         if (permutation.size() == nums.length) {
             permutations.add(permutation);
