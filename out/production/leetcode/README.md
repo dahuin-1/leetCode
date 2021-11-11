@@ -141,7 +141,7 @@
 - question num :  34
   - question link :  https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
   - difficulty :  Medium
-  - solution : 
+  - solution : https://github.com/dahuin-1/leetCode/blob/master/Top100andTopInterview/medium/FindFirstLastPositionElementSortedArray.java
 -----------------------------------------------------
 - question num :  46
   - question link :  https://leetcode.com/problems/permutations/
