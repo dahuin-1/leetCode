@@ -6,8 +6,24 @@ import java.util.Stack;
 //19번 문제
 public class RemoveNthNodeFromEndOfList {
 
-    /*public ListNode removeNthFromEnd(ListNode head, int n) {
-        if (head.next==null) {
+    public ListNode removeNthFromEnd(ListNode head, int n) {
+        ListNode start = new ListNode(0);
+        ListNode fast = head;
+        ListNode slow = head;
+
+        for (int i = 1; i <= n + 1; i++) {
+            fast = fast.next;
+        }
+
+        while (fast.next != null) {
+            slow = slow.next;
+            fast = fast.next;
+        }
+
+        slow.next = slow.next.next;
+        return start.next;
+    }
+       /* if (head.next==null) {
             return null;
         }
         ListNode returnNode = new ListNode();
@@ -26,9 +42,6 @@ public class RemoveNthNodeFromEndOfList {
         }
         return returnNode;
     }*/
-    public ListNode removeNthFromEnd(ListNode head, int n) {
-        return head;
-    }
 
 
     public class ListNode {
