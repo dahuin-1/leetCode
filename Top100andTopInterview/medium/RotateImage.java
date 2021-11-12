@@ -11,7 +11,30 @@ public class RotateImage {
         ri.rotate(matrix);
     }
     public void rotate(int[][] matrix) {
-        List<Integer> list = new ArrayList<Integer>();
+       swapRows(matrix);
+        transpose(matrix);
+    }
+
+    private void swapRows(int[][] matrix) {
+        int low = 0;
+        int high = matrix.length - 1;
+        while (low < high) {
+            int[] temp = matrix[low];
+            matrix[low++] = matrix[high];
+            matrix[high--] = temp;
+        }
+    }
+
+    private void transpose(int[][] matrix) {
+        int n = matrix.length;
+        for (int i = 0; i < n; i++) {
+            for (int j = i + 1; j < n; j++) {
+                int temp = matrix[i][j];
+                matrix[i][j] = matrix[j][i];
+                matrix[j][i] = temp;
+            }
+        }
+    }
 
 
      /*   int length = matrix.length; //4
@@ -28,6 +51,4 @@ public class RotateImage {
             }
 
         }*/
-
-    }
 }
