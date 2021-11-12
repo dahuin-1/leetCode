@@ -11,7 +11,7 @@ public class RotateImage {
         ri.rotate(matrix);
     }
     public void rotate(int[][] matrix) {
-       swapRows(matrix);
+        swapRows(matrix);
         transpose(matrix);
     }
 
