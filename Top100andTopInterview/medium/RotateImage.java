@@ -12,7 +12,9 @@ public class RotateImage {
     }
     public void rotate(int[][] matrix) {
         List<Integer> list = new ArrayList<Integer>();
-        int length = matrix.length; //4
+
+
+     /*   int length = matrix.length; //4
         System.out.println(length);
         for(int side = length; side > 1; side -= 2){
             int low = (length-1)/2; //1
@@ -25,7 +27,7 @@ public class RotateImage {
                 matrix[low][low+i] = temp; //[1][1]
             }
 
-        }
+        }*/
 
     }
 }
