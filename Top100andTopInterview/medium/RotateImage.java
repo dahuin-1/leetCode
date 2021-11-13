@@ -1,9 +1,5 @@
 package Top100andTopInterview.medium;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
-
 public class RotateImage {
     public static void main(String[] args) {
         RotateImage ri = new RotateImage();
@@ -14,26 +10,11 @@ public class RotateImage {
         swapRows(matrix);
         transpose(matrix);
     }
-
     private void swapRows(int[][] matrix) {
-        int low = 0;
-        int high = matrix.length - 1;
-        while (low < high) {
-            int[] temp = matrix[low];
-            matrix[low++] = matrix[high];
-            matrix[high--] = temp;
-        }
-    }
 
+    }
     private void transpose(int[][] matrix) {
-        int n = matrix.length;
-        for (int i = 0; i < n; i++) {
-            for (int j = i + 1; j < n; j++) {
-                int temp = matrix[i][j];
-                matrix[i][j] = matrix[j][i];
-                matrix[j][i] = temp;
-            }
-        }
+
     }
 
 
