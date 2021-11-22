@@ -7,7 +7,7 @@ public class rectangle {
 
     }
     public long solution(int w, int h) {
-        long all = w * h;
+        long all = (long) w * h;
         int newW = Math.max(w,h);
         int newH = Math.min(w,h);
         int cluster;
